@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that takes an AWS ARN string as input and extracts the resource type (e.g., 'user', 'role', 'instance') from it. The function should handle ARNs like 'arn:aws:iam::123456789012:user/john-doe' and return 'user'."
+  },
+  {
+    "task": "Create a JSON object that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-company-logs'. The policy should allow ListBucket and GetObject actions only for that bucket and its contents."
+  },
+  {
+    "task": "Write a regular expression that validates AWS S3 bucket names according to the naming rules: 3-63 characters long, lowercase letters, numbers, hyphens, and periods only, cannot start or end with a hyphen or period, and cannot have consecutive periods."
+  }
+]
