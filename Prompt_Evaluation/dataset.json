@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that takes an S3 bucket ARN and extracts just the bucket name from it. The function should handle ARNs in the format 'arn:aws:s3:::bucket-name' and return only the bucket name portion."
+    "task": "Create a JSON policy document that grants read-only access to a specific S3 bucket named 'my-company-logs' for the principal 'arn:aws:iam::123456789012:user/log-reader'",
+    "format": "json"
   },
   {
-    "task": "Create a JSON object representing an IAM policy that grants read-only access to a specific S3 bucket called 'my-data-bucket'. The policy should allow ListBucket and GetObject actions only for that bucket and its contents."
+    "task": "Write a Python function that takes an S3 object key as input and returns the file extension (e.g., '.txt', '.json', '.log')",
+    "format": "python"
   },
   {
-    "task": "Write a regular expression that matches valid AWS region names. The regex should match regions like 'us-east-1', 'eu-west-2', 'ap-southeast-1', but reject invalid formats like 'us-east', 'invalid-region', or 'us_east_1'."
+    "task": "Create a regular expression that validates AWS IAM role ARNs (format: arn:aws:iam::account-id:role/role-name)",
+    "format": "regex"
   }
 ]
