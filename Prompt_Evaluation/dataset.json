@@ -1,14 +1,17 @@
 [
   {
-    "task": "Create a JSON policy document that grants read-only access to a specific S3 bucket named 'my-company-logs' for the principal 'arn:aws:iam::123456789012:user/log-reader'",
-    "format": "json"
+    "task": "Create a JSON configuration for an AWS S3 bucket policy that allows read-only access to a specific IAM role",
+    "format": "json",
+    "solution_criteria": "Policy must include a valid IAM role ARN, specify read-only actions like s3:GetObject, and define the correct resource scope"
   },
   {
-    "task": "Write a Python function that takes an S3 object key as input and returns the file extension (e.g., '.txt', '.json', '.log')",
-    "format": "python"
+    "task": "Write a Python function that extracts the AWS region from a given ARN string",
+    "format": "python",
+    "solution_criteria": "Function should correctly parse the region segment from a valid AWS ARN, handle different ARN formats, and return the region name"
   },
   {
-    "task": "Create a regular expression that validates AWS IAM role ARNs (format: arn:aws:iam::account-id:role/role-name)",
-    "format": "regex"
+    "task": "Develop a regular expression to validate the format of an AWS EC2 instance ID (e.g., i-0123456789abcdef0)",
+    "format": "regex",
+    "solution_criteria": "Regex must match valid EC2 instance ID format: starts with 'i-', followed by 8-17 hexadecimal characters"
   }
 ]
